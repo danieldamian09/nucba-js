@@ -28,3 +28,11 @@ imprimirZapatilla(zapatillasAdidas);
 imprimirZapatilla(zapatillasFallen);
 imprimirZapatilla(zapatillasVans);
 imprimirZapatilla(zapatillasReebok);
+
+
+const capturarDataFormularios = e => {
+	console.log(e);
+	e.preventDefault();
+}
+
+capturarDataFormularios()
